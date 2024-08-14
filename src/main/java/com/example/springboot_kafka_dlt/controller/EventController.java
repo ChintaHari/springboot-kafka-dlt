@@ -23,9 +23,9 @@ public class EventController {
     @PostMapping("/publishNew")
     public ResponseEntity<?> publishEvent(@RequestBody User user) {
         try {
-            // List<User> users = CsvReaderUtils.readDataFromCsv();
-            // users.forEach(usr -> publisher.sendEvents(usr));
-            publisher.sendEvents(user);
+            List<User> users = CsvReaderUtils.readDataFromCsv();
+            users.forEach(usr -> publisher.sendEvents(usr));
+            // publisher.sendEvents(user);
             return ResponseEntity.ok("Message published successfully");
         } catch (Exception exception) {
             return ResponseEntity.
