@@ -21,12 +21,12 @@ This flowchart shows how messages flow from the producer to the consumer, and if
 
 This project relies on several Maven dependencies for its operation:
 
-1. **Spring Boot Starter Web**: Provides all the necessary dependencies for building web applications including RESTful applications using Spring MVC. It simplifies the setup and development of new applications.
-2. **Spring Kafka**: Adds support for Kafka integration, allowing the application to produce and consume messages from Kafka topics.
-3. **Spring Boot Devtools**: Provides fast application restarts, LiveReload, and configurations for enhanced development experience. Although optional, it helps in development.
-4. **Lombok**: Simplifies the code by generating boilerplate code like getters, setters, and constructors through annotations.
-5. **Spring Boot Starter Test**: Provides testing utilities but will not be discussed as per your request.
-6. **OpenCSV**: Facilitates operations with CSV files, in this case used to read user data to be sent to Kafka.
+1. **`Spring Boot Starter Web`**: Provides all the necessary dependencies for building web applications including RESTful applications using Spring MVC. It simplifies the setup and development of new applications.
+2. **`Spring Kafka`**: Adds support for Kafka integration, allowing the application to produce and consume messages from Kafka topics.
+3. **`Spring Boot Devtools`**: Provides fast application restarts, LiveReload, and configurations for enhanced development experience. Although optional, it helps in development.
+4. **`Lombok`**: Simplifies the code by generating boilerplate code like getters, setters, and constructors through annotations.
+5. **`Spring Boot Starter Test`**: Provides testing utilities but will not be discussed as per your request.
+6. **`OpenCSV`**: Facilitates operations with CSV files, in this case used to read user data to be sent to Kafka.
 
 ## Configuration Explanation
 
